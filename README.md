@@ -15,30 +15,13 @@ A Python-based tool for generating and visualizing audio waveforms, with LED mat
 
 ## Setup
 
-1. Clone the repository:
+1. Create and activate a virtual environment:
 
 ```bash
-git clone <repository-url>
-cd sound-machine-waveform-generator
-```
-
-2. Create and activate a virtual environment:
-
-On macOS/Linux:
-
-```bash
-python3 -m venv venv
 source venv/bin/activate
 ```
 
-On Windows:
-
-```bash
-python -m venv venv
-.\venv\Scripts\activate
-```
-
-3. Install dependencies:
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -80,11 +63,3 @@ sound-machine-waveform-generator/
 - pygame >= 2.5.2
 - numpy >= 1.26.0
 - scipy >= 1.12.0
-
-## License
-
-[Add your license information here]
-
-## Contributing
-
-[Add contribution guidelines here]
